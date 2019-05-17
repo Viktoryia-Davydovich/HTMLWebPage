@@ -163,6 +163,7 @@ a:hover{
     padding: 15px;
     color: rgb(99, 127, 131);
     vertical-align: middle;
+    width: 20%;
 }
 
 .option:first-child, .option:nth-child(2), .option:nth-child(3){
@@ -202,7 +203,7 @@ a:hover{
 
 .bckg-orange{
     text-align: center;
-    padding-top: 65px;
+    padding-top: 50px;
 }
 
 .bckg-orange img{
@@ -235,37 +236,27 @@ a:hover{
     cursor: pointer;
 }
 
-.line{
-    width: 46%;
-}
-
 .line-with-arrows{
-    margin-top: 38px;
+margin-top: 50px;
+text-align: center;
 }
 
-.line1{
-    float: left;
+.line{
+display: inline;
+padding: 5px;
 }
 
-.line2{
-    float: right;
+.line-half{
+    padding-bottom: 10px;
+    width: 45%;
+    border-top: 1px solid rgb(213, 213, 213);
+    display: inline-block;
 }
-
-.line-arr1, .line-arr2{
-    float: left;
-    padding-left:13px;
-}
-
-hr{
-    border-color: white;
-}
-
-.sep-line{
-    margin-top: 47px;
-}
-
 
 .feedbacks-section{
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid rgb(213, 213, 213); 
     display: table;
 }
 
@@ -275,7 +266,7 @@ hr{
 
 .fdb{
     display: flex;
-
+    padding-right: 15px;
 }
 
 .column p{
@@ -306,7 +297,7 @@ hr{
 
 .gray-ft{
     background-color: rgb(99, 127, 131);
-    margin-top: 27px;
+    margin-top: 40px;
 }
 
 .ft1{
@@ -354,7 +345,7 @@ hr{
 }
 
 form{
-    width: 555px;
+    width: 540px;
     margin-bottom: 45px;
 }
 .submbtn{
@@ -421,6 +412,30 @@ top: 19px;
     text-decoration: underline;
 }
 
+.round-img{
+    background: url('../images/cir.png') no-repeat center center;
+    width: 70px;
+    height:70px;
+    background-size:contain;
+}
+.fb{
+    background: url('../images/fb.png') no-repeat center center;
+    width: 70px;
+    height:70px;
+}
+
+.gpls{
+    background: url('../images/gplus.png') no-repeat center center;
+    width: 70px;
+    height:70px;
+}
+
+.lkd{
+    background: url('../images/linkedin.png') no-repeat center center;
+    width: 70px;
+    height:70px;
+}
+
 .ft-gr3-txt{
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
@@ -431,4 +446,35 @@ top: 19px;
 
 .ft2{
     text-align: center;
+}
+
+.col{
+    display: inline-block;
+}
+
+.white-ft{
+    margin: 30px;
+
+}
+
+.soctxt{
+    width: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(99, 127, 131);
+    line-height: 1.5em;
+    font-size: 14px;
+    padding-left: 17px;
+    position: relative;
+    bottom: 15px;
+}
+
+.soctxt p span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.white-row{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
