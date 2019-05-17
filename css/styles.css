@@ -1,5 +1,6 @@
 body{
     margin:0;
+    height:100%;
 }
 
 .header{
@@ -145,18 +146,23 @@ a:hover{
 }
 
 .options-stripe{
+    margin-top: 30px;
     text-align: center;
-    padding-top: 40px;
+    background-color: rgb(246, 246, 246);
+    vertical-align: middle;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .option{
-    display: inline-block;
-    width: 17%;
+    display: table-cell;
+
+    height: 310px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     padding: 15px;
     color: rgb(99, 127, 131);
-    
+    vertical-align: middle;
 }
 
 .option:first-child, .option:nth-child(2), .option:nth-child(3){
@@ -289,4 +295,140 @@ hr{
 
 .column img{
     padding-top: 13px;
+}
+
+.plsmore{
+    color: rgb(228, 85, 29);
+}
+
+/* FOOTER */
+
+
+.gray-ft{
+    background-color: rgb(99, 127, 131);
+    margin-top: 27px;
+}
+
+.ft1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid rgb(89, 114, 117);
+}
+
+.p1-ft span{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.p1-ft {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    line-height: 1.2;
+}
+
+.cellw{
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+}
+
+
+.inpfield{
+    width: 70%;
+    display: table-cell;
+    background-color:rgb(89, 114, 117);
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    height: 32px;
+    padding-left: 10px;
+}
+
+form{
+    width: 555px;
+    margin-bottom: 45px;
+}
+.submbtn{
+    display: table-cell;
+    background-color:rgb(89, 114, 117);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 32px;
+    letter-spacing: 1px;
+    width: 85px;
+    margin-top: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    margin-left: 7px;
+}
+
+.submbtn:hover{
+    cursor: pointer;
+}
+
+.cellmailimg {
+position: relative;
+top: 19px;
+}
+
+.celltxt{
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.celltxt p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.celltxt p span{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.twittercit{
+    background-color: rgb(89, 114, 117);
+    border-radius: 4px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    top: 31px;
+}
+
+.celldoveimg{
+    position: relative;
+    top: 31px;
+}
+
+.twitlink{
+    text-decoration: underline;
+}
+
+.ft-gr3-txt{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    line-height: 1.5em;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.ft2{
+    text-align: center;
 }
